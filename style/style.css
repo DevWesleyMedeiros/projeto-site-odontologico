@@ -69,7 +69,6 @@ section.sessao1 > div.container_mosaico > div.mosaico{
 }
 section.sessao1 > div.container_box_servicos{
     width: 70%;
-    border: 2px solid black;
     display: flex;
     justify-content: center;
     margin: 0 auto;
@@ -81,6 +80,7 @@ section.sessao1 > div.container_box_servicos > div.box_servico{
     justify-content: center;
     align-items: center;
     font-size: 12px;
+    margin-bottom: 5rem;
     background-color: #576975;
 }
 section.sessao1 > div.container_box_servicos > div.box_servico > div.dente_icone{
@@ -115,4 +115,22 @@ section.sessao1 > div.container_box_servicos > div.box_servico:nth-of-type(2){
     z-index: 1;
     border: none;
 }
+section.sessao2{
+    width: 100%;
+    height: auto;
+}
+section.sessao2 > div.container_titulo_profissional{
+    width: 70%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+section.sessao2 > div.container_titulo_profissional > div.pessao_foto{
+    width: 35%;
+    height: 200px;
+    background-image: url("../assets_arquivos/img_perfil.png");
+}
+
 
