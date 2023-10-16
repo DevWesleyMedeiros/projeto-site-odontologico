@@ -1,0 +1,36 @@
+Estrutura do meu site:
+
+Essa primeira parte será feita com flutações
+<header>
+    <nav>
+        <menu>
+            <ul>
+                <li><a></a></li>
+                <li><a></a></li>
+                <li><a></a></li>
+                <li><a></a></li>
+            </ul>
+        </menu>
+    </nav>
+</header>
+
+Aqui será feito com display grid
+<section class="sessao1">
+    --aqui será colocada as divs lado a lado mais container sobreposto
+</section>
+
+Aqui será feito com display inline-block
+<section class="sessao2">
+    --aqui será colocado o título profissional
+</section>
+
+Aqui será feito como o display flexBox
+<section class="sessao3"> 
+    --aqui será colocado os vídeos
+</section>
+
+<section class="sessao4">
+    --aqui será colocado os tipos de tratamento
+</section>
+
+to be continue...

@@ -1,0 +1,13 @@
+@media screen and (max-width: 768px){
+    menu.menu_desktop{
+        display: none;
+    }
+    menu.menu_mobile > ul{
+        display: none;
+    }
+    menu.menu_mobile > div.logo_mobile{
+        width: 50px;
+        border: 2px solid black;
+        float: right;
+    }
+}
