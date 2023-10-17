@@ -219,13 +219,60 @@
         </div>
     </section>
     <section class="sessao6">
-        <div class="contato">
-            <div class="form">
-                <form>
-                    
-                </form>
-            </div>
+        <div class="contato_titulo">
+            <h2>Contato</h2>
+        </div>
+        <div class="container_form">
+            <form>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" placeholder="Seu nome" required minlength="3" maxlength="100">
+                <div class="email_telefone">
+                    <div class="email">
+                        <label for="iemail">Email:</label>
+                        <input type="email" name="email" id="iemail" placeholder="Seu email" required minlength="10" maxlength="100">
+                    </div>
+                    <div class="telefone">
+                        <label for="itelefone">Telefone:</label>
+                        <input type="tel" name="telefone" id="itelefone" placeholder="Seu telefone" required></input>
+                    </div>
+                </div>
+                <textarea name="mensagem" id="texto_mensagem" placeholder="Mensagem"></textarea>
+                <div class="button">
+                    <button>Enviar</button>
+                </div>
+            </form>
         </div>
     </section>
+    <footer>
+        <div class="container_footer">
+            <h2>
+                <p>
+                    &copy; 2023 Wesley Medeiros da Rosa
+                    Todos os direitos reservados
+                </p>
+            </h2>
+        </div>
+        <div class="informacoes_empresa">
+            <div class="informacao">
+                <h3>Telefones:</h3>
+                <p>(99) 99999-9999</p>
+                <p>(99) 99999-9999</p>
+            </div>
+            <div class="informacao">
+                <h3>Horários:</h3>
+                <p>Segunda a sexta</p>
+                <p>Das 08:00 às 12:00</p>
+            </div>
+            <div class="informacao">
+                <h3>Endereço:</h3>
+                <p>
+                    Av. Trompowsky, 291. Torre 1 Sala 103
+                </p>
+                <p>
+                    Cep 9999999 - Cidade, ES.
+                </p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
