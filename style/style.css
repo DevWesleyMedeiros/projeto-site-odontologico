@@ -145,5 +145,134 @@ section.sessao2 > div.container_titulo_profissional > div.sobre_profissional > p
     color: #4b4b4b;
     font-size: 14px;
     margin-top: 8px;
-    line-height: 1.5em;
+    line-height: 1.8em;
+}
+section.sessao3{
+    width: 100%;
+}
+section.sessao3 > div.container_videos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+section.sessao3 > div.container_videos > div.videos{
+    width: 100%;
+    height: auto;
+    margin-bottom: 0;
+}
+section.sessao3 > div.container_videos > div.videos{
+    width: 100%;
+}
+section.sessao3 > div.container_videos > div.videos > video{
+    width: 100%;
+}
+section.sessao4{
+    width: 100%;
+    height: auto;
+}
+section.sessao4 > div.tratamento_titulo{
+    display: block;
+    margin: 5rem auto;
+}
+section.sessao4 > div.tratamento_titulo > h2{
+    text-align: center;
+    color: #698293;
+    text-align: center;
+    font-size: 25px;
+}
+section.sessao4 > div.container_tratamentos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+    padding: 1rem 1rem;
+}
+section.sessao4 > div.container_tratamentos > div.tipo_tratamento{
+    display: flex;
+    flex-direction: column;
+    padding: 0 0.5rem;
+}
+section.sessao4 > div.container_tratamentos > div.tipo_tratamento > h2{
+    text-align: start;
+    font-weight: 900;
+    color: #737373;
+    font-size: 18px
+}
+section.sessao4 > div.container_tratamentos > div.tipo_tratamento > p{
+    font-size: 13px;
+    color: #b4b4b4;
+    text-align: start;
+}
+section.sessao5{
+    width: 100%;
+    height: auto;
+}
+section.sessao5 > div.depoimento_titulo{
+    display: block;
+    margin: 5rem auto 2rem auto;
+}
+section.sessao5 > div.depoimento_titulo > h2{
+    text-align: center;
+    color: #698293;
+    text-align: center;
+    font-size: 25px;
+}
+section.sessao5 > p{
+    font-size: 13px;
+    color: #b4b4b4;
+    text-align: center;
+}
+section.sessao5 > div.depoimentos_pessoa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 10vh;
+    margin: 1rem 0;
+    position: relative;
+}
+section.sessao5 > div.depoimentos_pessoa > span{
+    font-size: 13px;
+    color: #b4b4b4;
+    text-align: center;
+}
+section.sessao5 > div.depoimentos_pessoa > div.foto_pessoa_depoimento{
+    width: 70px;
+    height: 50px;
+    background-image: url("../assets_arquivos/depoimento1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    position: absolute;
+    top: 1%;
+    right: 55%;
+}
+section.sessao5 > div.instagram_logo{
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+    background: #98a5ae;
+}
+section.sessao5 > div.instagram_logo > div.logo_instagram{
+    margin: 2rem 0;
+}
+section.sessao5 > div.container_depoimentos{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 10px;
+    padding: 0.2rem 0.1rem;
+}
+section.sessao5 > div.container_depoimentos > div.depoimentos{
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(200, 200, 200);
+}
+section.sessao5 > div.facebook_logo{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background: #576975;
+}
+section.sessao5 > div.facebook_logo > div.logo_facebook{
+    margin: 2rem 0;
 }
